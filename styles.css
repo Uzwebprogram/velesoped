@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #16A085;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15;
+
+}
+.main{
+   border: 1px solid #fff ;
+   background-color: #fff;
+   border-radius: 5px;
+   margin-top: 200px;
+   margin-left: 300px;
+   width: 650px;
+   height: 470px;
+   box-shadow: 0 0 5px 1px #186155;
+   background-image: url(../img/bicycle.png);
+   background-repeat: no-repeat;
+   background-size: 500px;
+   background-position-y:220px ;
+   background-position-x: 80px;
+   
+}
+.main-span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-heading{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: -50px;
+}
+
+.main-image{
+  border: 1px solid #dfdfdf;
+   border-radius: 50px;
+   margin-top: 10px;
+   margin-left: 100px;
+   padding: 10px;
+}
+.main-image:active{
+    box-shadow: 0 0 0 3px  #f0f0f0;
+}
+
+.shop-padding{
+    font-family: sans-serif;
+    font-weight: 500;
+    color:#9b9a9a ;
+    margin-left:42px ;
+    margin-bottom: 50px ;
+}
+.speed{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.gel{
+    display: flex;
+    margin-bottom: 20px;
+}
+.total{
+    display: flex;
+    font-size: 20px;
+}
+.shop-spanner{
+    margin-left: -55px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+    margin-bottom: 20px;
+}
+.shop-spanner3{
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+    margin-bottom: 20px;
+}
+.shop-spanner2{
+    margin-left: 40px;
+    font-family: sans-serif;
+    color: rgb(94, 93, 93);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.shop-atirbut2{
+    margin-left: 255px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.shop-atirbut3{
+    margin-left:400px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.shop-span1{
+    margin-left: 40px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.shop{
+    background-image: url(./img/bicycle.png);
+}
